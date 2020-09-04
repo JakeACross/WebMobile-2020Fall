@@ -3,7 +3,7 @@ Welcome to Web and Mobile Programming
 
 ### To Do: _Describe about your repo_
 
-**Student Name:** John Doe
+**Student Name:** Jake Cross
 
 **Instructor Name:** Vijaya Yeruva
 
@@ -11,7 +11,7 @@ Welcome to Web and Mobile Programming
 
 ICP1: https://github.com/JakeACross/WebMobile-2020Fall/wiki/Web_ICP1
 
-ICP2: 
+ICP2: https://github.com/JakeACross/WebMobile-2020Fall/wiki/Web_ICP2
 
 
 **Wiki Links for Mobile ICPs**
