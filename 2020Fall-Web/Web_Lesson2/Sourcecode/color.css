@@ -1,0 +1,17 @@
+.cube-container{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    top: 25vh;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cube-container div {
+    width: 70px;
+    height: 70px;
+    background: black;
+}

@@ -28,25 +28,17 @@ body {
 
 #nav-bar a:hover {
   opacity: 1;
-  text-decoration: underline;
 }
 
 .nav-bar-opacity {
   opacity: 0.7;
 }
 
-
-#sign-in {
-  padding: 8px 11px;
-  background-color: #4285f4;
-  border-radius: 2px;
+#avatar a {
+  opacity: 1;
 }
 
-#sign-in-text {
-  color: white !important;
-  font-weight: bold;
-  text-decoration: none !important;
-}
+
 
 .main-content {
   position: relative;
@@ -101,64 +93,15 @@ input:focus {
   left: 388px;
 }
 
-.buttons {
-  width: 25vw;
+
+.flex-container {
+  position: relative;
+  width: 450px;
+  height: 250px;
+  margin: 0 auto;
+  top: 25vh;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.buttons button {
-  width: 160px;
-  height: 45px;
-  background-color: rgb(240, 240, 240);
-  margin: 20px 5px;
-  font-weight: bold;
-  font-size: 15px;
-  border-radius: 3px;
-}
-p {
-  opacity: 0.5;
-}
-.buttons button:hover p {
-  opacity: 1;
-}
-.buttons button:hover {
-  border: solid 1px #BBB;
-}
-footer {
-  position: absolute;
-  width: 100vw;
-  bottom: 0;
-}
-.bottom-nav {
-  display: flex;
-  height: 40px;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #EEE;
-  opacity: 0.5;
-  border-top: solid 1px #CCC;
-}
-footer li {
-  display: inline;
-  margin: 0 20px;
-  font-size: 14px;
-}
-footer a {
-  text-decoration: none;
-  color: black;
-}
-.ul-left {
-  position: absolute;
-  left: 0;
-  top: 10px;
-}
-.ul-right {
-  position: absolute;
-  right: 0;
-  top: 10px;
-}
-footer a:hover {
-  text-decoration: underline;
+  align-content: center;
+  flex-wrap: wrap;
 }
