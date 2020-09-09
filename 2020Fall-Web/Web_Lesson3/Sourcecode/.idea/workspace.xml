@@ -24,52 +24,40 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37096fa8-33d0-4dde-86c9-b5a94e8aa905" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sourcecode/google.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sourcecode/google.html" afterDir="false" />
+    <list default="true" id="69373d92-2a79-457c-8e37-f49de6285a3a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../2020Fall-Mobile/Mobile_Lesson3/Sourcecode/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web_Lesson2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web_Lesson2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="1h1aUvVY2lm3OFSkHKmDLFSt14y" />
+  <component name="ProjectId" id="1hHp7gwSGeGzQwWtSDaZ2aObVYh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="37096fa8-33d0-4dde-86c9-b5a94e8aa905" name="Default Changelist" comment="" />
-      <created>1599181071168</created>
+      <changelist id="69373d92-2a79-457c-8e37-f49de6285a3a" name="Default Changelist" comment="" />
+      <created>1599677706129</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1599181071168</updated>
-      <workItem from="1599181074132" duration="4665000" />
-      <workItem from="1599189501403" duration="8000" />
-      <workItem from="1599189782006" duration="2285000" />
-      <workItem from="1599193765187" duration="707000" />
-      <workItem from="1599230359420" duration="1886000" />
+      <updated>1599677706129</updated>
+      <workItem from="1599677707161" duration="14000" />
     </task>
     <servers />
   </component>
@@ -86,6 +74,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
