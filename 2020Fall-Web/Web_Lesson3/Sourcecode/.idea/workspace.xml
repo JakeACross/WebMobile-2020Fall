@@ -25,29 +25,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69373d92-2a79-457c-8e37-f49de6285a3a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../2020Fall-Mobile/Mobile_Lesson3/Sourcecode/index.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPS Game/RPS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPS Game/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPS Game/paper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPS Game/program.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPS Game/rock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPS Game/scissors.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Web_Lesson2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web_Lesson2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/script.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="1hHp7gwSGeGzQwWtSDaZ2aObVYh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/RPS Game" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -58,6 +85,13 @@
       <option name="presentableId" value="Default" />
       <updated>1599677706129</updated>
       <workItem from="1599677707161" duration="14000" />
+      <workItem from="1599677818615" duration="1096000" />
+      <workItem from="1599679583092" duration="47000" />
+      <workItem from="1599679801795" duration="787000" />
+      <workItem from="1599692216654" duration="1038000" />
+      <workItem from="1599694631718" duration="8088000" />
+      <workItem from="1599708826934" duration="5801000" />
+      <workItem from="1599738730245" duration="2628000" />
     </task>
     <servers />
   </component>
@@ -74,5 +108,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="385" y="140" width="670" height="676" key="search.everywhere.popup" timestamp="1599707050628">
+      <screen x="0" y="23" width="1440" height="793" />
+    </state>
+    <state x="385" y="140" width="670" height="676" key="search.everywhere.popup/0.23.1440.793@0.23.1440.793" timestamp="1599707050628" />
   </component>
 </project>

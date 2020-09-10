@@ -25,8 +25,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37096fa8-33d0-4dde-86c9-b5a94e8aa905" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Web_Lesson3/Sourcecode/RockPaperScissors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web_Lesson3/Sourcecode/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web_Lesson3/Sourcecode/paper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web_Lesson3/Sourcecode/rock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web_Lesson3/Sourcecode/scissors.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sourcecode/google.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sourcecode/google.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web_Lesson3/Sourcecode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web_Lesson3/Sourcecode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web_Lesson3/Sourcecode/Calculator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web_Lesson3/Sourcecode/Calculator/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +76,8 @@
       <workItem from="1599189782006" duration="2285000" />
       <workItem from="1599193765187" duration="707000" />
       <workItem from="1599230359420" duration="1886000" />
+      <workItem from="1599679633008" duration="66000" />
+      <workItem from="1599694602207" duration="27000" />
     </task>
     <servers />
   </component>
