@@ -25,17 +25,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69373d92-2a79-457c-8e37-f49de6285a3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RPS Game/RPS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPS Game/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPS Game/paper.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPS Game/program.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPS Game/rock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPS Game/scissors.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web_Lesson2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web_Lesson2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RWD Task/Draft/PlaceHolderImages/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RWD Task/Draft/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWD Task/SampleBootStrapMockup.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWD Task/SampleImages/Image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWD Task/SampleImages/app1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWD Task/SampleImages/app2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWD Task/SampleImages/app3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWD Task/SampleImages/bean.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWD Task/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWD Task/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWD Task/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWD Task/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWD Task/input/PlaceHolderImages/100x100" beforeDir="false" afterPath="$PROJECT_DIR$/RWD Task/Draft/PlaceHolderImages/100x100" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWD Task/input/PlaceHolderImages/1140x350" beforeDir="false" afterPath="$PROJECT_DIR$/RWD Task/Draft/PlaceHolderImages/1140x350" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWD Task/input/PlaceHolderImages/555x300" beforeDir="false" afterPath="$PROJECT_DIR$/RWD Task/Draft/PlaceHolderImages/555x300" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWD Task/input/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/RWD Task/Draft/input.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +52,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -92,6 +98,8 @@
       <workItem from="1599694631718" duration="8088000" />
       <workItem from="1599708826934" duration="5801000" />
       <workItem from="1599738730245" duration="2628000" />
+      <workItem from="1599744718326" duration="75000" />
+      <workItem from="1599778944894" duration="8249000" />
     </task>
     <servers />
   </component>
