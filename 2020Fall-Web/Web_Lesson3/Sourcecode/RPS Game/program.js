@@ -39,11 +39,11 @@ function judge(){
 
 function showCom(){
     if (com == 0)
-        document.getElementById('com-choice').src="rock.png";
+        document.getElementById('com-choice').src="images/rock.png";
     else if (com == 1)
-        document.getElementById('com-choice').src="paper.png";
+        document.getElementById('com-choice').src="images/paper.png";
     else
-        document.getElementById('com-choice').src="scissors.png";
+        document.getElementById('com-choice').src="images/scissors.png";
 
 
 
