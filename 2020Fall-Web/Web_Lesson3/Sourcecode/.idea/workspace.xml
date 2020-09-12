@@ -26,9 +26,7 @@
   <component name="ChangeListManager">
     <list default="true" id="69373d92-2a79-457c-8e37-f49de6285a3a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPS Game/RPS.html" beforeDir="false" afterPath="$PROJECT_DIR$/RPS Game/RPS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPS Game/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPS Game/program.js" beforeDir="false" afterPath="$PROJECT_DIR$/RPS Game/program.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWD Task/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/RWD Task/input.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +94,7 @@
       <workItem from="1599832277039" duration="744000" />
       <workItem from="1599864578234" duration="523000" />
       <workItem from="1599868189180" duration="2620000" />
-      <workItem from="1599934227992" duration="4230000" />
+      <workItem from="1599934227992" duration="4735000" />
     </task>
     <servers />
   </component>
