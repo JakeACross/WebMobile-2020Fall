@@ -1,27 +1,17 @@
-var button = document.getElementsByClassName("btn btn-secondary");
-var com = 0;
+var button = document.getElementsByClassName("buttons");
+var com = 0; //define them as number. rock is 0, paper is 1, and scissors is 2
 var user = 0;
 var rock = document.getElementById("rock");
 var paper = document.getElementById("paper");
 var scissors = document.getElementById("scissors");
 
-function comThink(){
-    com = Math.floor(Math.random() * 3) + 1;
+function comThink() //get random number from 0, 1 and 2
+{
+    com = Math.floor(Math.random() * 3);
 }
 
-function converter(a){
-    if (a == 0)
-        user = 0;
-    else if (a == 1)
-        user = 1;
-    else if (a == 2)
-        user = 2;
-
-
-
-}
-
-function judge(){
+function judge()//display a text depending on the result(condition)
+{
     if ((user == 0 && com == 2) || (user == 1 && com == 0) || (user == 2 && com == 1)){
         document.getElementById("text").innerHTML = "You won!!!";
 
@@ -37,7 +27,8 @@ function judge(){
 
 }
 
-function showCom(){
+function showCom()//display a computer's choice depending on the random number
+{
     if (com == 0)
         document.getElementById('com-choice').src="images/rock.png";
     else if (com == 1)
@@ -49,28 +40,26 @@ function showCom(){
 
 }
 
+for (var i = 0; i < button.length; i++)//due to this loop, user can anytime he or she wants to play
 
-
-
-
-for (var i = 0; i < button.length; i++) {
+{
 
     rock.addEventListener("click", function () {
-        converter(0);
+        user = 0;
         comThink();
         judge();
         showCom();
     });
 
     paper.addEventListener("click", function () {
-        converter(1);
+        user = 1;
         comThink();
         judge();
         showCom();
     });
 
     scissors.addEventListener("click", function () {
-        converter(2);
+        user = 2;
         comThink();
         judge();
         showCom();

@@ -6,18 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="Demo project">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
+<!-- we dont need css file this time-->
 <body>
-<div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
-    <button type="button" class="btn btn-secondary" id="rock"><img src="images/rock.png" style="width:100px;height:100px;"></button>
-    <button type="button" class="btn btn-secondary" id ="paper"><img src="images/paper.png" style="width:100px;height:100px;"></button>
-    <button type="button" class="btn btn-secondary" id ="scissors"><img src="images/scissors.png" style="width:100px;height:100px;"></button>
-</div>
-<h1 id="text">Computer is ready</h1>
-<img id="com-choice" src="images/rock.png" style="width:100px;height:100px;">
+<div style="text-align: center"> <!-- align below elements to center-->
+    <div class="buttons"> <!-- for javascript var-->
+    <button id="rock"><img src="images/rock.png" style="width:250px;height:250px;"></button>
+    <button id ="paper"><img src="images/paper.png" style="width:250px;height:250px;"></button>
+    <button id ="scissors"><img src="images/scissors.png" style="width:250px;height:250px;"></button>
+    </div>
+
+<h1 id="text">Computer is ready</h1> <!-- display the results-->
+<img id="com-choice" src="images/rock.png" style="width:250px;height:250px;"> <!-- display a com"s choice-->
 <script src="program.js"></script>
+</div>
 
 </body>
 </html>
