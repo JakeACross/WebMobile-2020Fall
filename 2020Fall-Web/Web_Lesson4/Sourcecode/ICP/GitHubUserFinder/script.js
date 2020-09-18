@@ -12,11 +12,13 @@ function showUser(user) {
     document.getElementsByTagName("h2").innerHTML = user.login;
     document.getElementsByClassName("avatar").innerHTML= user.avatar_url;
     document.getElementsByClassName("information").innerHTML= user.html_url;
+    console.log(user.login);
 }
 
 function noSuchUser(username) {
     //3. set the elements such that a suitable message is displayed
     document.getElementsByTagName("h2").innerText = username + "is not found...";
+    console.log("abc");
 }
 
 $(document).ready(function () {

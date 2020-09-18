@@ -25,8 +25,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b672bba-4cc0-4af1-a5cf-e02371f49393" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Web_Lesson2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Web_Lesson2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Web_Lesson3/Sourcecode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Web_Lesson3/Sourcecode/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GitHubUserFinder/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/GitHubUserFinder/script.js" afterDir="false" />
     </list>
@@ -61,7 +59,8 @@
       <workItem from="1600396054175" duration="7461000" />
       <workItem from="1600406146456" duration="68000" />
       <workItem from="1600406325094" duration="721000" />
-      <workItem from="1600411427984" duration="695000" />
+      <workItem from="1600411427984" duration="1744000" />
+      <workItem from="1600414369394" duration="19000" />
     </task>
     <servers />
   </component>
