@@ -26,12 +26,20 @@
   <component name="ChangeListManager">
     <list default="true" id="5b672bba-4cc0-4af1-a5cf-e02371f49393" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitHubUserFinder/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/GitHubUserFinder/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GitHubUserFinder/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/GitHubUserFinder/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
@@ -61,6 +69,7 @@
       <workItem from="1600406325094" duration="721000" />
       <workItem from="1600411427984" duration="1744000" />
       <workItem from="1600414369394" duration="19000" />
+      <workItem from="1600443026844" duration="6117000" />
     </task>
     <servers />
   </component>
@@ -78,5 +87,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="322" y="129" key="RollbackChangesDialog" timestamp="1600446710511">
+      <screen x="0" y="23" width="1440" height="793" />
+    </state>
+    <state x="322" y="129" key="RollbackChangesDialog/0.23.1440.793@0.23.1440.793" timestamp="1600446710511" />
   </component>
 </project>
