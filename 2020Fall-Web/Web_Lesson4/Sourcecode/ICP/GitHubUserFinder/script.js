@@ -1,21 +1,39 @@
 function getGithubInfo(user) {
     //1. Create an instance of XMLHttpRequest class and send a GET request using it.
     // The function should finally return the object(it now contains the response!)
-    
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("GET", "https://api.github.com/users", true);
+    xhttp.send();
+    return xhttp;
 }
 
 function showUser(user) {
     //2. set the contents of the h2 and the two div elements in the div '#profile' with the user content
+    /*user.login;
+    user.id="";
+    user.avatar_url = "";
+    user.gravatar_id ="";
+    user.html_url = "";*/
+    document.getElementsByTagName("h2").innerText = user.login;
+    document.getElementsByClassName("avatar").innerHTML= user.avatar_url;
+    document.getElementsByClassName("information").innerHTML= user.html_url;
+
+
+
+
+
 }
 
 function noSuchUser(username) {
     //3. set the elements such that a suitable message is displayed
+    document.getElementsByTagName("h2").innerText = username + "is not found...";
 }
 
 $(document).ready(function () {
     $(document).on('keypress', '#username', function (e) {
         //check if the enter(i.e return) key is pressed
         if (e.which == 13) {
+            document.getElementsByClassName("avatar").innerHTML = "abc";
             //get what the user enters
             username = $(this).val();
             //reset the text typed in the input
@@ -30,5 +48,6 @@ $(document).ready(function () {
                 noSuchUser(username);
             }
         }
+        
     })
 });
