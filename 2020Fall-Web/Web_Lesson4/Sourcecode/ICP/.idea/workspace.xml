@@ -26,8 +26,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5b672bba-4cc0-4af1-a5cf-e02371f49393" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GitHubUserFinder/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/GitHubUserFinder/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GitHubUserFinder/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/GitHubUserFinder/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,8 @@
       <workItem from="1600443026844" duration="6117000" />
       <workItem from="1600453136906" duration="430000" />
       <workItem from="1600471479051" duration="152000" />
-      <workItem from="1600549840990" duration="1077000" />
+      <workItem from="1600549840990" duration="2058000" />
+      <workItem from="1600552077057" duration="199000" />
     </task>
     <servers />
   </component>
