@@ -3,15 +3,16 @@ function getGithubInfo(user) {
     // The function should finally return the object(it now contains the response!)
     var xhttp = new XMLHttpRequest();
     xhttp.open("GET", "https://api.github.com/users/"+user, true);
-    xhttp.onload = function () {
+    xhttp.onload = function () //execute when it is loaded
+    {
         if (xhttp.readyState === xhttp.DONE) {
             if (xhttp.status === 200) {
-                console.log(xhttp.responseText);
-                showUser(JSON.parse(xhttp.responseText));
+                console.log(xhttp.responseText); //for checking
+                showUser(JSON.parse(xhttp.responseText)); //update page content
 
             }
             else
-                noSuchUser(user);
+                noSuchUser(user); //just display alert
         }
     };
     xhttp.send();
