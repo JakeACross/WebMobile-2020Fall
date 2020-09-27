@@ -1,6 +1,12 @@
 /*Google fonts*/
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-
+body {
+  color: #333333;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 12px;
+  background: #272030;
+}
 body .container {
   max-width: 800px;
   width: 100%;
