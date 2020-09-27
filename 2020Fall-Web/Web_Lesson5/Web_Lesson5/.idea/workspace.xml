@@ -24,25 +24,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b672bba-4cc0-4af1-a5cf-e02371f49393" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d9c84f94-9786-4774-8276-4d9c22f349aa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Web_Lesson4/Sourcecode/ICP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web_Lesson4/Sourcecode/ICP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP/ToDoICP/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ICP/ToDoICP/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP/ToDoICP/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/ICP/ToDoICP/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP/ToDoICP/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ICP/ToDoICP/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP/ToDoICP/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ICP/ToDoICP/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP/ToDoICP/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ICP/ToDoICP/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ICP/ToDoICP" />
   </component>
-  <component name="ProjectId" id="1hfJ8MZtNMZlF8RNvEiEffL9IHt" />
+  <component name="ProjectId" id="1hyP8WmrcYALgTqrJuov8qlujCC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -52,28 +50,27 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/ICP/ToDoICP/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5b672bba-4cc0-4af1-a5cf-e02371f49393" name="Default Changelist" comment="" />
-      <created>1600396053161</created>
+      <changelist id="d9c84f94-9786-4774-8276-4d9c22f349aa" name="Default Changelist" comment="" />
+      <created>1600980199698</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1600396053161</updated>
-      <workItem from="1600396054175" duration="7461000" />
-      <workItem from="1600406146456" duration="68000" />
-      <workItem from="1600406325094" duration="721000" />
-      <workItem from="1600411427984" duration="1744000" />
-      <workItem from="1600414369394" duration="19000" />
-      <workItem from="1600443026844" duration="6117000" />
-      <workItem from="1600453136906" duration="430000" />
-      <workItem from="1600471479051" duration="152000" />
-      <workItem from="1600549840990" duration="2058000" />
-      <workItem from="1600552077057" duration="1758000" />
-      <workItem from="1600980159834" duration="1000" />
-      <workItem from="1600994843168" duration="46000" />
+      <updated>1600980199698</updated>
+      <workItem from="1600980200738" duration="39000" />
+      <workItem from="1600981274743" duration="90000" />
+      <workItem from="1600981395016" duration="217000" />
+      <workItem from="1600983331141" duration="405000" />
+      <workItem from="1600983828229" duration="10186000" />
+      <workItem from="1601001643110" duration="1743000" />
     </task>
     <servers />
   </component>
@@ -91,11 +88,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="322" y="129" key="RollbackChangesDialog" timestamp="1600446710511">
-      <screen x="0" y="23" width="1440" height="793" />
-    </state>
-    <state x="322" y="129" key="RollbackChangesDialog/0.23.1440.793@0.23.1440.793" timestamp="1600446710511" />
   </component>
 </project>
