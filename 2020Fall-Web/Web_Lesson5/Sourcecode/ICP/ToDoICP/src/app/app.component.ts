@@ -8,10 +8,16 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   // define list of items
-  items= [];
+  items = [];
 
   // Write code to push new item
-  submitNewItem() {
+  submitNewItem(value) {
+    if (value !== '') {
+      this.items.push(value);
+      console.log(this.items);
+    } else {
+      alert('Field required **');
+    }
 
   }
 
@@ -21,8 +27,18 @@ export class AppComponent {
   }
 
   // Write code to delete item
-  deleteItem() {
+  deleteItem(value) {
+    for (let i = 0 ; i <= this.items.length; i++) {
+      if (value === this.items[i]) {
+        this.items.splice(i, 1);
+      }
+    }
 
   }
 
 }
+
+
+
+
+
