@@ -7,17 +7,18 @@
 </head>
 <body>
 <h1 class="text-center ">Todo App</h1>
+
 <div class="container">
     <div class="form-group">
-      <div class="input-group-prepend">
+        <div class="input-group-prepend">
         <input type="text" #todo  class="form-control" placeholder="Add Todo" name="todo" ngModel>
         <span class="input-group-text" (click)="submitNewItem(todo.value)">
 				<i class="material-icons">add</i></span>
       </div>
     </div>
     <div class="data">
-      <ul class="list-unstyled">
-        <li *ngFor="let todo of items">{{todo}} <i (click)="deleteItem(todo)" class="material-icons">delete</i></li>
+      <ul>
+        <li #comp (click)="completeItem(comp)" *ngFor="let todo of items">{{todo}} <i (click)="deleteItem(todo)" class="material-icons">delete</i></li>
       </ul>
     </div>
 

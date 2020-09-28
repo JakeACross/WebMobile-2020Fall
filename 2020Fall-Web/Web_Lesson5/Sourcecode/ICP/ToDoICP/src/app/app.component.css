@@ -1,11 +1,8 @@
 /*Google fonts*/
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-body {
+body h1 {
   color: #333333;
   font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 12px;
-  background: #272030;
 }
 body .container {
   max-width: 800px;
@@ -15,12 +12,11 @@ body .container {
   position: absolute;
 
 }
-body .container h1 {
-  color: #fff;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 1;
-  text-align: center;
-  text-transform: uppercase;
-  margin: 0 0 30px;
+
+body .container .data .comp{
+  text-decoration: line-through;
+}
+
+body.material-icons {
+
 }

@@ -22,8 +22,10 @@ export class AppComponent {
   }
 
   // Write code to complete item
-  completeItem() {
-
+  completeItem(value) {
+    if (value.className !== 'comp') {
+      value.className += 'comp';
+    }
   }
 
   // Write code to delete item
@@ -37,7 +39,6 @@ export class AppComponent {
   }
 
 }
-
 
 
 
