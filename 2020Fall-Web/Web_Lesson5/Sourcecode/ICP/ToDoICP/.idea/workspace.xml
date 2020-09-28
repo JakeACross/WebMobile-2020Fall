@@ -25,7 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35a4f8b7-d932-4eba-b7a4-d924e3dff2b2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Timer/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Timer/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Timer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Timer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Timer/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Timer/src/app/app.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Timer/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Timer/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Timer/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Timer/src/app/app.component.ts" afterDir="false" />
@@ -104,6 +104,9 @@
       <workItem from="1601260241925" duration="1681000" />
       <workItem from="1601263335842" duration="20000" />
       <workItem from="1601263538222" duration="560000" />
+      <workItem from="1601313564858" duration="28000" />
+      <workItem from="1601313630952" duration="10000" />
+      <workItem from="1601318263270" duration="686000" />
     </task>
     <servers />
   </component>

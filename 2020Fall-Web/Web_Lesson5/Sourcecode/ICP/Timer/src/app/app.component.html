@@ -2,15 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Timer</title>
 </head>
 <body>
 <div class="clock-input">
-  <input #time (load)="updateTimer(calcTime(time.value))" type="date" name="time-to" class="time-to" id="time-to" value="">
+  <input #time (change)="calcTime(time.value)"  type="date" name="time-to" class="time-to" id="time-to" value="">
 </div>
 <div class="container">
   <div class="clock-column">
-    <p class="clock-day clock-timer">{{}}</p>
+    <p class="clock-day clock-timer"></p>
     <p class="clock-label">Days</p>
   </div>
 
