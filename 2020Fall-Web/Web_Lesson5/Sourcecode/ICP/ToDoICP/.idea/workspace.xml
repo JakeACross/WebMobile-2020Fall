@@ -26,9 +26,6 @@
   <component name="ChangeListManager">
     <list default="true" id="35a4f8b7-d932-4eba-b7a4-d924e3dff2b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +94,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601248588819</updated>
-      <workItem from="1601248590466" duration="7653000" />
+      <workItem from="1601248590466" duration="7682000" />
+      <workItem from="1601256863974" duration="427000" />
+      <workItem from="1601260241925" duration="1681000" />
     </task>
     <servers />
   </component>
@@ -114,5 +113,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
