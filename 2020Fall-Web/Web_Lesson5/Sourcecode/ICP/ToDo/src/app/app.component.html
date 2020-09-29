@@ -16,7 +16,7 @@
       </div>
     </div>
     <div class="data">
-      <ul><!-- when elemnt of the list clicked, strikethrough it. Delete clicked delete the element-->
+      <ul><!-- when element of the list clicked, strikethrough it. Delete clicked delete the element-->
         <li #comp (click)="completeItem(comp)" *ngFor="let todo of items">{{todo}} <i (click)="deleteItem(todo)" class="material-icons">delete</i></li>
       </ul>
     </div>
