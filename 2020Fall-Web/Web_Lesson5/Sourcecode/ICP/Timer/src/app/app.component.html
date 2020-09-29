@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
 </head>
 <body>
-<div class="clock-input">
+<div class="clock-input"><!-- call this function if input is changed-->
   <input #time (change)="calcTime(time.value)"  type="date" name="time-to" class="time-to" id="time-to" value="">
 </div>
+<!-- just format and classes to edit by css-->
 <div class="container">
   <div class="clock-column">
     <p class="clock-day clock-timer"></p>

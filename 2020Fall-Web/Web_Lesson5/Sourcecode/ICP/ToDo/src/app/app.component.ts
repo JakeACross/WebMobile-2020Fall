@@ -14,7 +14,7 @@ export class AppComponent {
   submitNewItem(value) {
     if (value !== '') {
       this.items.push(value);
-      console.log(this.items);
+      // console.log(this.items);
     } else {
       alert('Field required **');
     }

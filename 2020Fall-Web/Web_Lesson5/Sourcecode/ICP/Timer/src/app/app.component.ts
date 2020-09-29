@@ -12,7 +12,7 @@ export class AppComponent {
   calcTime(dates) {
     const newYear = new Date('1.1.2020').getTime();
     let date;
-    clearInterval(this.startTimer);
+    clearInterval(this.startTimer); // terminate timer
     if (typeof(dates) === 'undefined') {
       date = new Date(newYear).getTime();
     } else {
@@ -22,7 +22,7 @@ export class AppComponent {
     this.updateTimer(date) ; // declaration is below
   }
   updateTimer(date) {
-    this.startTimer = setInterval(() => {
+    this.startTimer = setInterval(() => { // execute every one second
       const now = new Date().getTime();
       const distance = date - now;
       const days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -34,8 +34,8 @@ export class AppComponent {
       document.querySelector('.clock-minutes').innerHTML = '' + minutes;
       document.querySelector('.clock-seconds').innerHTML = '' + seconds;
 
-      if (now >= date) {
-        clearInterval(this.startTimer);
+      if (now >= date) {// terminate timer
+        clearInterval(this.startTimer); // terminate timer
         document.querySelector('.clock-day').innerHTML = 'D';
         document.querySelector('.clock-hours').innerHTML = 'O';
         document.querySelector('.clock-minutes').innerHTML = 'N';
