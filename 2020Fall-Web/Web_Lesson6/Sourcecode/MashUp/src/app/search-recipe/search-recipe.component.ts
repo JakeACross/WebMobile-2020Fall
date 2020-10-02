@@ -24,11 +24,11 @@ export class SearchRecipeComponent implements OnInit {
   ngOnInit() {
 
     window.navigator.geolocation.getCurrentPosition(
-      position => {
-        this.geolocationPosition = position;
-        this.currentLat = position.coords.latitude;
-        this.currentLong = position.coords.longitude;
-      });
+        position => {
+          this.geolocationPosition = position;
+          this.currentLat = position.coords.latitude;
+          this.currentLong = position.coords.longitude;
+        });
   }
 
   getVenues() {
@@ -38,14 +38,21 @@ export class SearchRecipeComponent implements OnInit {
 
     if (this.recipeValue !== null) {
       /**
-       * Write code to get recipe
+       * Write code to get place
        */
     }
 
     if (this.placeValue != null && this.placeValue !== '' && this.recipeValue != null && this.recipeValue !== '') {
-      /**
-       * Write code to get place
-       */
+      this._http.get('https://api.foursquare.com/v2/venues/explore?client_id=34YIGNPKOFYNCWWKBRAT541KNYQVDYGDCDILNM5VLPKDXTHR&client_secret=R5FN0SMVEPXER5OFMNYVK3WK12QJRBGTRJWHP3CRV5X0L5GL&v=20180323&limit=15&ll=40.7243,-74.0018&query=')
+          .subscribe((data: any) => {
+            this.venueList = Object.keys(data.venue).map(function (k) {
+              const i = data.venue[k];
+              return {
+                title: i.title, body: i.extract
+              };
+              console.log(this.venueList);
+            });
+          });
     }
   }
 }
