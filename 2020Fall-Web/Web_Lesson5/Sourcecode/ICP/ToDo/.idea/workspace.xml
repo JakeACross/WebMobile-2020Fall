@@ -25,8 +25,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35a4f8b7-d932-4eba-b7a4-d924e3dff2b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../Web_Lesson4/Sourcecode/ICP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Web_Lesson4/Sourcecode/ICP/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Web_Lesson6/Sourcecode/MashUp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Web_Lesson6/Sourcecode/MashUp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Web_Lesson6/Sourcecode/MashUp/src/app/search-recipe/search-recipe.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Web_Lesson6/Sourcecode/MashUp/src/app/search-recipe/search-recipe.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +109,7 @@
       <workItem from="1601380232073" duration="257000" />
       <workItem from="1601381822497" duration="224000" />
       <workItem from="1601420665752" duration="948000" />
+      <workItem from="1601778846673" duration="1347000" />
     </task>
     <servers />
   </component>
