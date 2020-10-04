@@ -25,8 +25,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7259e141-6f63-4a0b-8bf5-8e2b99ccfb63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Web_Lesson4/Sourcecode/ICP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Web_Lesson4/Sourcecode/ICP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Web_Lesson5/Sourcecode/ICP/ToDo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Web_Lesson5/Sourcecode/ICP/ToDo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/search-recipe/search-recipe.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/search-recipe/search-recipe.component.ts" afterDir="false" />
     </list>
@@ -95,7 +93,7 @@
       <updated>1601593601019</updated>
       <workItem from="1601593602912" duration="1138000" />
       <workItem from="1601595190285" duration="4505000" />
-      <workItem from="1601778313089" duration="6541000" />
+      <workItem from="1601778313089" duration="6984000" />
     </task>
     <servers />
   </component>

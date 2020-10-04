@@ -43,13 +43,14 @@ export class SearchRecipeComponent implements OnInit {
     }
 
     if (this.placeValue != null && this.placeValue !== '' && this.recipeValue != null && this.recipeValue !== '') {
-      this._http.get('https://api.foursquare.com/v2/venues/explore?client_id=34YIGNPKOFYNCWWKBRAT541KNYQVDYGDCDILNM5VLPKDXTHR&client_secret=R5FN0SMVEPXER5OFMNYVK3WK12QJRBGTRJWHP3CRV5X0L5GL&v=20180323&limit=15&ll=40.7243,-74.0018&query='
+      this._http.get('https://api.foursquare.com/v2/venues/explore?client_id=34YIGNPKOFYNCWWKBRAT541KNYQVDYGDCDILNM5VLPKDXTHR&client_secret=R5FN0SMVEPXER5OFMNYVK3WK12QJRBGTRJWHP3CRV5X0L5GL&v=20180323&limit=5&ll=40.7243,-74.0018&query='
           + this.recipeValue)
           .subscribe((data: any) => {
-            this.venueList.push(data.response.groups[0].items[0].venue);
-            this.venueList.push(data.response.groups[0].items[1].venue);
-            this.venueList.push(data.response.groups[0].items[2].venue);
-            console.log(this.venueList);
+            const items = data.response.groups[0].items;
+            for (let i = 0 ; i <= items.length; i++) {
+              this.venueList.push(items[i].venue);
+            }
+            // console.log(this.venueList);
           });
     }
   }
