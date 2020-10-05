@@ -10,11 +10,26 @@
   position: center;
 
 }
+/* just give h2 text to shadow */
+.child-container h2 {
+  text-shadow:0 5px 5px black;
+}
+
+/* add some designs to label in order to use it as button */
+.child-container label {
+  cursor: pointer;
+}
+
+.child-container label:hover {
+  color: white;
+}
+
 .desc {
   font-family: Georgia;
   font-size: 17px;
 }
 
+/* sample codes*/
 .thumbnail {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   transition: 0.3s;

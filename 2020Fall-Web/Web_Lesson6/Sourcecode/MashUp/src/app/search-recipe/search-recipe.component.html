@@ -8,11 +8,9 @@
           <input #recipe class="form-control" placeholder="Recipe name" type="text">
           <span class="input-group-addon">-</span>
           <input #place class="form-control" placeholder="Place" type="text">
-          <span class="input-group-addon">-</span>
+          <label (click)="getVenues()" class="input-group-addon">Go</label>
 
         </div>
-        <br>
-        <button (click)="getVenues()" class="btn btn primary col-lg-2 col-lg-offset-5 " type="button">Go</button>
 
       </div>
     </form>

@@ -8,10 +8,12 @@
   color: white;
   text-align: center;
   position: center;
+  text-shadow:0 5px 5px black;
 
 }
 .desc {
   font-family: Georgia;
   font-size: 17px;
+
 }
 
