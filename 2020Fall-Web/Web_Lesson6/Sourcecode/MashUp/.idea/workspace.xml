@@ -24,11 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7259e141-6f63-4a0b-8bf5-8e2b99ccfb63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/search-recipe/search-recipe.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/search-recipe/search-recipe.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/search-recipe/search-recipe.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/search-recipe/search-recipe.component.ts" afterDir="false" />
-    </list>
+    <list default="true" id="7259e141-6f63-4a0b-8bf5-8e2b99ccfb63" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,6 +94,7 @@
       <workItem from="1601857871497" duration="733000" />
       <workItem from="1601862598139" duration="2062000" />
       <workItem from="1601867435313" duration="2424000" />
+      <workItem from="1601870557511" duration="757000" />
     </task>
     <servers />
   </component>
