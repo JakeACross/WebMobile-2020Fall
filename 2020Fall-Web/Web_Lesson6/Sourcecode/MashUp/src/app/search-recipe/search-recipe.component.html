@@ -26,12 +26,12 @@
         <div class="panel-body">
           <div *ngFor="let recipe of recipeList" class="list-group-item clearfix">
             <div class="pull-left">
-              <h4 class="list-group-item-heading">{{ recipe.name }}</h4>
+              <h4 class="list-group-item-heading">{{ recipe.label }}</h4>
               <a href="{{recipe.url}}" class="list-group-item-text">{{ recipe.url }}</a>
             </div>
 
             <span class="pull-right">
-          <img src="{{recipe.icon}}" style="width: 70px; height: 50px;" align="center"/>
+          <img src="{{recipe.image}}" style="width: 70px; height: 50px;" align="center"/>
 
       </span>
 

@@ -37,13 +37,19 @@ export class SearchRecipeComponent implements OnInit {
     this.placeValue = this.places.nativeElement.value;
 
     if (this.recipeValue !== null) {
-      /**
-       * Write code to get place
-       */
+      this._http.get('https://api.edamam.com/search?app_id=00ea7c3e&app_key=f0aa9f9f7e9b21c16250d317054a28f2&from=0&to=3&q='
+          + this.recipeValue)
+          .subscribe((data: any) => {
+              const items = data.hits;
+              for (let i = 0 ; i <= items.length; i++) {
+                  this.recipeList.push(items[i].recipe);
+              }
+              // console.log(this.recipeList);
+          });
     }
 
     if (this.placeValue != null && this.placeValue !== '' && this.recipeValue != null && this.recipeValue !== '') {
-      this._http.get('https://api.foursquare.com/v2/venues/explore?client_id=34YIGNPKOFYNCWWKBRAT541KNYQVDYGDCDILNM5VLPKDXTHR&client_secret=R5FN0SMVEPXER5OFMNYVK3WK12QJRBGTRJWHP3CRV5X0L5GL&v=20180323&limit=5&ll=40.7243,-74.0018&query='
+      this._http.get('https://api.foursquare.com/v2/venues/explore?client_id=34YIGNPKOFYNCWWKBRAT541KNYQVDYGDCDILNM5VLPKDXTHR&client_secret=R5FN0SMVEPXER5OFMNYVK3WK12QJRBGTRJWHP3CRV5X0L5GL&v=20180323&limit=5&near=' + this.placeValue + '&query='
           + this.recipeValue)
           .subscribe((data: any) => {
             const items = data.response.groups[0].items;
