@@ -49,8 +49,8 @@ export class SearchRecipeComponent implements OnInit {
     }
 
     if (this.placeValue != null && this.placeValue !== '' && this.recipeValue != null && this.recipeValue !== '') {
-      this._http.get('https://api.foursquare.com/v2/venues/explore?client_id=34YIGNPKOFYNCWWKBRAT541KNYQVDYGDCDILNM5VLPKDXTHR&client_secret=R5FN0SMVEPXER5OFMNYVK3WK12QJRBGTRJWHP3CRV5X0L5GL&v=20180323&limit=9&near=' + this.placeValue + '&query='
-          + this.recipeValue)
+      this._http.get('https://api.foursquare.com/v2/venues/explore?client_id=34YIGNPKOFYNCWWKBRAT541KNYQVDYGDCDILNM5VLPKDXTHR&client_secret=R5FN0SMVEPXER5OFMNYVK3WK12QJRBGTRJWHP3CRV5X0L5GL&v=20180323&limit=9' +
+          '&near=' + this.placeValue + '&query=' + this.recipeValue)
           .subscribe((data: any) => {
             const items = data.response.groups[0].items; // accessing venue (response->groups[0]->items[i]->)
             for (let i = 0 ; i <= items.length; i++) { // iterate through the list which items has and push to recipeList

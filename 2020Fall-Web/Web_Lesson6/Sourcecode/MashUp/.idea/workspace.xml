@@ -26,11 +26,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7259e141-6f63-4a0b-8bf5-8e2b99ccfb63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/home.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/search-recipe/search-recipe.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/search-recipe/search-recipe.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/search-recipe/search-recipe.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/search-recipe/search-recipe.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/search-recipe/search-recipe.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/search-recipe/search-recipe.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +100,7 @@
       <workItem from="1601867435313" duration="2424000" />
       <workItem from="1601870557511" duration="757000" />
       <workItem from="1601928559602" duration="3858000" />
+      <workItem from="1601939293851" duration="623000" />
     </task>
     <servers />
   </component>
