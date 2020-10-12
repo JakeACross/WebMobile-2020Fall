@@ -21,6 +21,9 @@ ICP5: https://github.com/JakeACross/WebMobile-2020Fall/wiki/Web_ICP5
 
 ICP6: https://github.com/JakeACross/WebMobile-2020Fall/wiki/Web_ICP6
 
+ICP7: https://github.com/JakeACross/WebMobile-2020Fall/wiki/Web_ICP7
+
+
 
 **Wiki Links for Mobile ICPs**
 
