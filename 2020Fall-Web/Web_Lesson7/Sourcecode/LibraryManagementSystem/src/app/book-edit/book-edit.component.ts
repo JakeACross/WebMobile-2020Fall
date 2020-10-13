@@ -10,6 +10,7 @@ import {FormControl, FormGroupDirective, FormBuilder, FormGroup, NgForm, Validat
 })
 export class BookEditComponent implements OnInit {
   bookForm: FormGroup;
+  // global object
   book = {
     isbn: '',
     title: '',
@@ -24,6 +25,7 @@ export class BookEditComponent implements OnInit {
   }
 
   ngOnInit() {
+    // assign the value (book info) to the object members
     this.bookForm = this.formBuilder.group({
       isbn: [this.book.isbn, Validators.required],
       title: [this.book.title, Validators.required],
@@ -38,6 +40,7 @@ export class BookEditComponent implements OnInit {
   }
 
   onFormSubmit(form: NgForm) {
+    // Update book information
     this.api.updateBook(this.route.snapshot.params['id'], form)
       .subscribe(res => {
         const id = res['_id'];

@@ -26,9 +26,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7259e141-6f63-4a0b-8bf5-8e2b99ccfb63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Web_Lesson7/Sourcecode/LibraryManagementSystem/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Web_Lesson7/Sourcecode/LibraryManagementSystem/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Web_Lesson7/Sourcecode/LibraryManagementSystem/src/app/book/book.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Web_Lesson7/Sourcecode/LibraryManagementSystem/src/app/book/book.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Web_Lesson7/Sourcecode/LibraryManagementSystem/src/app/book/book.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Web_Lesson7/Sourcecode/LibraryManagementSystem/src/app/book/book.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web_Lesson7/Sourcecode/LibraryManagementSystem/src/app/book-create/book-create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Web_Lesson7/Sourcecode/LibraryManagementSystem/src/app/book-create/book-create.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web_Lesson7/Sourcecode/LibraryManagementSystem/src/app/book-detail/book-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Web_Lesson7/Sourcecode/LibraryManagementSystem/src/app/book-detail/book-detail.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web_Lesson7/Sourcecode/LibraryManagementSystem/src/app/book-edit/book-edit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Web_Lesson7/Sourcecode/LibraryManagementSystem/src/app/book-edit/book-edit.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web_Lesson7/Sourcecode/LibraryManagementSystem/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Web_Lesson7/Sourcecode/LibraryManagementSystem/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +108,7 @@
       <workItem from="1602460816616" duration="1000" />
       <workItem from="1602546552465" duration="704000" />
       <workItem from="1602547686605" duration="20000" />
+      <workItem from="1602620514543" duration="628000" />
     </task>
     <servers />
   </component>
