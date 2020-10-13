@@ -4,44 +4,49 @@
   </a>
 </div>
 <form [formGroup]="bookForm" (ngSubmit)="onFormSubmit(bookForm.value)">
-  <mat-form-field class="example-full-width">
+  <mat-form-field class="example-full-width" appearance="outline">
     <input matInput placeholder="ISBN" formControlName="isbn"
            [errorStateMatcher]="matcher">
+    <mat-icon matSuffix>local_library</mat-icon>
     <mat-error>
       <span *ngIf="!bookForm.get('isbn').valid && bookForm.get('isbn').touched">Please enter ISBN</span>
     </mat-error>
   </mat-form-field>
-  <mat-form-field class="example-full-width">
+  <mat-form-field class="example-full-width" appearance="outline">
     <input matInput placeholder="Title" formControlName="title"
            [errorStateMatcher]="matcher">
+    <mat-icon matSuffix>history_edu</mat-icon>
     <mat-error>
       <span *ngIf="!bookForm.get('title').valid && bookForm.get('title').touched">Please enter Book Title</span>
     </mat-error>
   </mat-form-field>
-  <mat-form-field class="example-full-width">
+  <mat-form-field class="example-full-width" appearance="outline">
     <input matInput placeholder="Author" formControlName="author"
            [errorStateMatcher]="matcher">
+    <mat-icon matSuffix>person</mat-icon>
     <mat-error>
       <span *ngIf="!bookForm.get('author').valid && bookForm.get('author').touched">Please enter Book Author</span>
     </mat-error>
   </mat-form-field>
-  <mat-form-field class="example-full-width">
+  <mat-form-field class="example-full-width" appearance="outline">
     <textarea matInput placeholder="Description" formControlName="description"
               [errorStateMatcher]="matcher"></textarea>
     <mat-error>
       <span *ngIf="!bookForm.get('description').valid && bookForm.get('description').touched">Please enter Book Description</span>
     </mat-error>
   </mat-form-field>
-  <mat-form-field class="example-full-width">
+  <mat-form-field class="example-full-width" appearance="outline">
     <input matInput placeholder="Publisher" formControlName="publisher"
            [errorStateMatcher]="matcher">
+    <mat-icon matSuffix>apartment</mat-icon>
     <mat-error>
       <span *ngIf="!bookForm.get('publisher').valid && bookForm.get('publisher').touched">Please enter Publisher</span>
     </mat-error>
   </mat-form-field>
-  <mat-form-field class="example-full-width">
+  <mat-form-field class="example-full-width" appearance="outline">
     <input matInput placeholder="Published Year" formControlName="published_year"
            [errorStateMatcher]="matcher">
+    <mat-icon matSuffix>event_note</mat-icon>
     <mat-error>
       <span *ngIf="!bookForm.get('published_year').valid && bookForm.get('published_year').touched">Please enter Published Year</span>
     </mat-error>
