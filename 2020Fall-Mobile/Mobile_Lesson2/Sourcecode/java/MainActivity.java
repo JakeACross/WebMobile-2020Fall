@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
 
     private String createOrderSummary(String userInputName, boolean hasPepperoni, boolean hasTomatoes, boolean hasMushrooms, boolean hasOnion, float price) {
         String orderSummaryMessage = getString(R.string.order_summary_name, userInputName) + "\n" + "\n" +
-                "If you chose, your topping(s) is/are below" + "\n";
+                "Your topping(s) is/are below" + "\n";
         // display toppings when they are included in it
         if (hasPepperoni)
             orderSummaryMessage += "Pepperoni\n";
@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
         if (hasOnion)
             orderSummaryMessage += "Onion\n";
         orderSummaryMessage += getString(R.string.order_summary_quantity, quantity) + "\n" +
-                getString(R.string.order_summary_total_price, price) + "\n" +
+                getString(R.string.order_summary_total_price, price) + "\n" + "\n" +
                 getString(R.string.thank_you);
         return orderSummaryMessage;
     }
