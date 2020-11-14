@@ -26,10 +26,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7259e141-6f63-4a0b-8bf5-8e2b99ccfb63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Web_Lesson7/Sourcecode/LibraryManagementSystem/src/app/book-create/book-create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Web_Lesson7/Sourcecode/LibraryManagementSystem/src/app/book-create/book-create.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Web_Lesson7/Sourcecode/LibraryManagementSystem/src/app/book-detail/book-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Web_Lesson7/Sourcecode/LibraryManagementSystem/src/app/book-detail/book-detail.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Web_Lesson7/Sourcecode/LibraryManagementSystem/src/app/book-edit/book-edit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Web_Lesson7/Sourcecode/LibraryManagementSystem/src/app/book-edit/book-edit.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Web_Lesson7/Sourcecode/LibraryManagementSystem/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Web_Lesson7/Sourcecode/LibraryManagementSystem/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/search-recipe/search-recipe.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/search-recipe/search-recipe.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +106,10 @@
       <workItem from="1602546552465" duration="704000" />
       <workItem from="1602547686605" duration="20000" />
       <workItem from="1602620514543" duration="628000" />
+      <workItem from="1605329359318" duration="1126000" />
+      <workItem from="1605333798467" duration="59000" />
+      <workItem from="1605334042801" duration="19000" />
+      <workItem from="1605334095273" duration="6000" />
     </task>
     <servers />
   </component>
