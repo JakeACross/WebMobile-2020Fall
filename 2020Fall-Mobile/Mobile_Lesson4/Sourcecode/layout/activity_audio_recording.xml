@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AudioRecordingActivity">
+
+    <Button
+        android:id="@+id/btnStartRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="#D30000"
+        android:onClick="startRecord"
+        android:text="Start Recording"
+        />
+
+    <Button
+        android:id="@+id/btnStopRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnStartRecord"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="20dp"
+        android:onClick="stopRecord"
+        android:text="Stop Recording"/>
+    <Button
+        android:id="@+id/btnStartPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnStopRecord"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="#D30000"
+        android:layout_marginTop="70dp"
+        android:onClick="playRecord"
+        android:text="Play Recording"/>
+    <Button
+        android:id="@+id/btnStopPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnStartPlay"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="20dp"
+        android:onClick="stopPlay"
+        android:text="Stop Playing"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="534dp"
+        android:gravity="center"
+        android:text="Quick Recorder"
+        android:textColor="#27D928"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="236dp"
+        android:layout_height="141dp"
+        android:layout_below="@+id/btnStopPlay"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="9dp"
+        app:srcCompat="@drawable/voice_ic_recorder" />
+
+</RelativeLayout>
