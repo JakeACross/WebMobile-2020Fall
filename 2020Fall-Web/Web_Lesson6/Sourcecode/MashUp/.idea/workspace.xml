@@ -26,7 +26,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7259e141-6f63-4a0b-8bf5-8e2b99ccfb63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/search-recipe/search-recipe.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/search-recipe/search-recipe.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +109,8 @@
       <workItem from="1605333798467" duration="59000" />
       <workItem from="1605334042801" duration="19000" />
       <workItem from="1605334095273" duration="6000" />
+      <workItem from="1605908335271" duration="1790000" />
+      <workItem from="1606042323863" duration="437000" />
     </task>
     <servers />
   </component>
