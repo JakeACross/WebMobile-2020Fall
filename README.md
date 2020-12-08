@@ -37,4 +37,6 @@ ICP11: https://github.com/JakeACross/WebMobile-2020Fall/wiki/Mobile_ICP4
 
 ICP12: https://github.com/JakeACross/WebMobile-2020Fall/wiki/Mobile_ICP5
 
+ICP13: https://github.com/JakeACross/WebMobile-2020Fall/wiki/Mobile_ICP6
+
 **Wiki Link for Project:** 
